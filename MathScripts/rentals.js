@@ -1,3 +1,6 @@
+// In this exercies I want to find out how much vans are needed to fit x amount of passengers and how much to charge/charge passengers
+// individually. vans fit 15 passengers and the cost to rent a van is 250. 
+
 const passengersPerVan = 15;
 const numberOfPassengers = 38;
 const costPerVan = 250;
