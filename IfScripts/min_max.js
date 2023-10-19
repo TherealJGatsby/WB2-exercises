@@ -1,6 +1,6 @@
 // displays the largest number
 
-const a = 14;
+const a = 1;
 const b = 11;
 const c = 14;
 
