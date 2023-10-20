@@ -6,14 +6,14 @@ const c = 14;
 
 let displayValue = "";
 
-if (c >= b && c >= a) {
-    displayValue = "The largest number is " + c ;
+if (a >= b && a >= c) {
+    displayValue = "The largest number is " + a;
 }
-else if (b >= a) {
+else if (b >= c) {
     displayValue = "The largest number is " + b;
 }
 else {
-    displayValue = "The largest number is " + a;
+    displayValue = "The largest number is " + c;
 }
 
 console.log(displayValue);
@@ -22,14 +22,14 @@ console.log(displayValue);
 // displays the smallest number 
 let displayNumber = "";
 
-if (c <= b && c <= a) {
-    displayNumber = "The smallest number is " + c ;
+if (a <= b && a <= c) {
+    displayNumber = "The smallest number is " + a ;
 }
-else if (b <= a) {
+else if (b <= c) {
     displayNumber = "The smallest number is " + b;
 }
 else {
-    displayNumber = "The smallest number is " + a;
+    displayNumber = "The smallest number is " + c;
 }
 
 console.log(displayNumber);
